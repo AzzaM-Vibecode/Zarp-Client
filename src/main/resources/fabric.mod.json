@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "zarpclient",
+  "version": "${version}",
+  "name": "Zarp Client",
+  "description": "Mod client-side Zarp untuk Minecraft Fabric.",
+  "authors": [
+    "AzzaM"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.azzam.zarpclient.ZarpClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
