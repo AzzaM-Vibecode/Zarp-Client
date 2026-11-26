@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "zarpfinder",
+  "version": "${version}",
+  "name": "Zarp Finder",
+  "description": "Zarp Finder - ClickGUI client with settings framework and modules.",
+  "license": "GPL-3.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["zarpfinder.ZarpFinderMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
