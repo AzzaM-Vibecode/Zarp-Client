@@ -22,7 +22,7 @@ public final class ZarpClient implements ClientModInitializer {
         toggleKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
                 "key.zarpclient.toggle",
                 InputUtil.Type.KEYSYM,
-                GLFW.GLFW_KEY_G,
+                GLFW.GLFW_KEY_RIGHT_SHIFT,
                 category
         ));
 
